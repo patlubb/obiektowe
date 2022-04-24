@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+<title> zadanie 63 </title>
+
+</head>
+
+<body>
+    
+<script type="text/javascript">
+
+var a = prompt("wpisz tekst lub liczbę = ",);
+a = a.toLocaleLowerCase();
+
+if(a=="niebieski"){
+document.write("<font size= 1 color=blue> wczytałeś kolor niebieski </font>");
+
+}
+if(a==2){
+document.write("<font size=1 color=blue> wczytałeś kolor niebieski </font>");
+
+}
+if(a=="czerwony"){
+
+document.write("<font size=7 color=red> wczytałeś kolor czerwony </font>");
+
+}
+ if(a==1){
+    document.write("<font size=7 color=red> wczytałeś kolor czerwony </font>");
+}
+</script>
+
+</body>
+
+</html>
